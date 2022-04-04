@@ -1,0 +1,519 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 03:33:16
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.16                                |7.3.30
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-03-28 15:27:54
+WP VERSION__________: 5.9.2
+DUP VERSION_________: 1.4.4
+DB__________________: 10.3.25
+DB TABLES___________: 27
+DB ROWS_____________: 3,776
+DB FILE SIZE________: 14.84MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.30 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.48 (Win64) OpenSSL/1.1.1l PHP/7.3.30
+DOC ROOT____________: "C:/xampp/htdocs/PROJECT"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/PROJECT/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/PROJECT/20220328_eniproject2022_[HASH]_20220328152754_archive.zip"
+SIZE________________: 41.02MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/PROJECT/20220328_eniproject2022_[HASH]_20220328152754_archive.zip"
+SIZE________________: 41.02MBFile timestamp set to Current: 2022-03-28 15:34:03
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 03:34:03 - RUNTIME: 47.0219 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:35:53
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.21 -- Build Server: 10.3.25
+FILE SIZE:	dup-database__[HASH].sql (16.1MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/PROJECT/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	259
+
+jelentkezok: (0)
+wp_actionscheduler_actions: (40)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (112)
+wp_bccf_dex_bccf_submissions: (0)
+wp_bccf_dex_discount_codes: (0)
+wp_bccf_dex_season_prices: (0)
+wp_bccf_reservation_calendars: (1)
+wp_bccf_reservation_calendars_data: (0)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_cpappbk_forms: (1)
+wp_cpappbk_messages: (0)
+wp_duplicator_packages: (0)
+wp_e_events: (0)
+wp_links: (0)
+wp_options: (208)
+wp_postmeta: (2847)
+wp_posts: (439)
+wp_term_relationships: (25)
+wp_term_taxonomy: (9)
+wp_termmeta: (9)
+wp_terms: (9)
+wp_usermeta: (25)
+wp_users: (1)
+wp_wpforms_tasks_meta: (15)
+Removed '32' cache/transient rows
+
+INSERT DATA RUNTIME: 1.0098 sec.
+STEP-2 COMPLETE @ 03:35:54 - RUNTIME: 1.0206 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:36:02
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "eniproject2022"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/ocxouatd/stevecsoka.hu"
+path_new______________: "C:/xampp/htdocs/PROJECT"
+siteurl_______________: "http://localhost/PROJECT"
+url_old_______________: "http://stevecsoka.aquila2000.hu"
+url_new_______________: "http://localhost/PROJECT"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "jelentkezok"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   112][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_bccf_dex_bccf_submissions"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bccf_dex_discount_codes"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bccf_dex_season_prices"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bccf_reservation_calendars"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_bccf_reservation_calendars_data"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_cpappbk_forms"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_cpappbk_messages"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   208][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2847][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   439][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ocxouatd/stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  2:"\/home\/ocxouatd\/stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  3:"%2Fhome%2Focxouatd%2Fstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  4:"\home\ocxouatd\stevecsoka.hu" ====================> "C:/xampp/htdocs/PROJECT"
+	SEARCH  5:"\\home\\ocxouatd\\stevecsoka.hu" =================> "C:\/xampp\/htdocs\/PROJECT"
+	SEARCH  6:"%5Chome%5Cocxouatd%5Cstevecsoka.hu" ==============> "C%3A%2Fxampp%2Fhtdocs%2FPROJECT"
+	SEARCH  7:"//stevecsoka.aquila2000.hu" ======================> "//localhost/PROJECT"
+	SEARCH  8:"\/\/stevecsoka.aquila2000.hu" ====================> "\/\/localhost\/PROJECT"
+	SEARCH  9:"%2F%2Fstevecsoka.aquila2000.hu" ==================> "%2F%2Flocalhost%2FPROJECT"
+	SEARCH 10:"https://localhost/PROJECT" =======================> "http://localhost/PROJECT"
+	SEARCH 11:"https:\/\/localhost\/PROJECT" ====================> "http:\/\/localhost\/PROJECT"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FPROJECT" ===============> "http%3A%2F%2Flocalhost%2FPROJECT"
+--------------------------------------
+SCANNED:	Tables:27 	|	 Rows:3744 	|	 Cells:23936 
+UPDATED:	Tables:5 	|	 Rows:740 	|	 Cells:1051 
+ERRORS:		0 
+RUNTIME:	1.063000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:36:03 - RUNTIME: 1.1726 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
