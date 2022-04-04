@@ -1,0 +1,71 @@
+<html lang="hu">
+  <head>
+    <meta content="text/html; charset=utf-8" />
+    <script
+      type="text/javascript"
+      src="https://github.com/rubyeffect/easy_fill/tree/master/lib/easy_fill-0.0.1.min.js"
+    ></script>
+    <title>Online időpont</title>
+    <link rel="stylesheet" type="text/css" href="appointment.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="body_header">
+        <h1>Időpont foglalás</h1>
+        <p></p>
+      </div>
+      <form action="beszuras.php" method="post">
+        <fieldset>
+          <legend><span class="number">1</span>Alap információk</legend>
+          <label for="name">Név*:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Teljes név"
+            required
+          />
+
+          <label for="mail">Email*:</label>
+          <input
+            type="email"
+            id="mail"
+            name="email"
+            placeholder="abc@xyz.com"
+            required
+          />
+
+          <label for="tel">Telefon*:</label>
+          <input
+            type="tel"
+            id="tel"
+            placeholder="+36 20 1234567"
+            name="phone"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="number">2</span>Időpont részletei</legend>
+          <label for="appointment_for">Online időpont*:</label>
+          <select id="appointment_for" name="appointment_for" required>
+            <option value="kezdo">Kezdő csoport</option>
+            <option value="khalado">Közép-haladó csoport</option>
+            <option value="halado">Haladó</option>
+            <option value="magan">Magánóra</option>
+          </select>
+
+          <label for="date">Mikor kezdené?*:</label>
+          <input type="date" name="date" value="" required />
+          <br />
+          <label for="time">Óra*:</label>
+          <input type="time" name="time" value="" required />
+        </fieldset>
+        <button type="submit" name="kuldes" value="Időpont foglalás">
+          Időpont foglalás
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
